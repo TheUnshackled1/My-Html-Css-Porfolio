@@ -1,6 +1,11 @@
 p {
   font-weight: bold;
 }
-h1 {
+h1{
   color: rgb(72, 57, 86);
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
