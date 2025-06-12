@@ -2,10 +2,56 @@ p {
   font-weight: bold;
 }
 h1{
-  color: rgb(72, 57, 86);
-  text-align: center;
+  color: rgb(32, 29, 29);
+  text-align: center; 
 }
-
+h1:hover{
+  color: rgb(84, 84, 154);
+}
 footer {
   text-align: center;
+}
+body{
+  background-color:whitesmoke);
+}
+
+.profile-image {
+  style="height: 
+  250px; width: 350px;    
+  border-radius: 400px;  
+}
+nav {
+  color: rgb(49, 49, 71);
+  text-transform: capitalize;
+  text-align: center;
+  word-spacing: 2ch;
+  margin-right: 120px;
+  margin-top: 2ch;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 30px;
+  
+  transition:background-color 1s;
+  transition: opacity 1s;
+
+}
+.link-name{
+  text-decoration: none;
+  color: whitesmoke;
+  display: inline;
+  padding: 8px;
+  background-color: rgb(78, 78, 153);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+
+  transition: opacity 2s;
+  box-shadow: 10px 10px 10px black;
+  transition: box-shadow 1s;
+}
+.link-name:hover{
+  opacity: 0.5;
+}
+.link-name:active{
+  opacity: 0.3;
 }
